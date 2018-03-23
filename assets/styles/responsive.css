@@ -1,0 +1,255 @@
+/* --------------------------------------------------
+	EMERHUB - Registration Company
+  Created By: Rangga Herly Hilman Herawan
+  EMERHUB Front End Developer Recruitment Assignment
+-------------------------------------------------- */
+
+
+/* ---- General ---- */
+@media (max-width: 1260px) {
+  .mb-sm-30 {
+    margin-bottom: 30px;
+  }
+  .mb-sm-50 {
+    margin-bottom: 50px;
+  }
+  .mb-sm-100 {
+    margin-bottom: 100px;
+  }
+  .mb-sm-160 {
+    margin-bottom: 160px;
+  }
+  .section {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .clear {
+    clear: both;
+  }
+  .mb-xs-30 {
+    margin-bottom: 30px;
+  }
+  .mb-xs-50 {
+    margin-bottom: 50px;
+  }
+  .mb-xs-100 {
+    margin-bottom: 100px;
+  }
+}
+
+/* ---- Navigation ---- */
+@media (max-width: 1260px) {
+  .navbar .navbar-header {
+    width: auto;
+    margin-left: 0;
+  }
+  .navbar .navbar-header .navbar-brand {
+    margin-left: 25px;
+  }
+  .navbar .navbar-header .navbar-toggle {
+    border: none;
+  }
+  .navbar .navbar-header .navbar-toggle:focus {
+    background: none;
+  }
+  .navbar .navbar-header .navbar-toggle:hover {
+    background: none;
+  }
+  .navbar .navbar-header .navbar-toggle:hover span {
+    background: #111;
+  }
+  .navbar .navbar-header .navbar-toggle span {
+    background: #999;
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+  }
+  .navbar .navbar-collapse {
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-height: 100%;
+    border: none;
+    box-shadow: none;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+    padding-top: 10px;
+    height: 100%;
+    border: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-banner {
+    display: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .cart-nav .dropdown-toggle {
+    margin-left: -16px;
+  }
+  .navbar .navbar-collapse .navbar-nav .cart-nav .cart-dropdown {
+    min-width: 100%;
+  }
+  .navbar .navbar-right {
+    margin-right: 0;
+  }
+  nav:not(.navbar-small) .navbar-header .navbar-toggle {
+    margin-top: 15px;
+  }
+  .navbar-inverse .navbar-header .navbar-toggle:hover span {
+    background: #ececec;
+  }
+  .navbar-inverse .navbar-header .navbar-toggle span {
+    background: #999;
+    -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+  }
+}
+
+
+/* ---- Footers ---- */
+@media (max-width: 992px) {
+  .footer-widgets .about-widget {
+    margin-bottom: 50px;
+  }
+  .footer-widgets .gallery-widget {
+    margin-bottom: 50px;
+  }
+  .footer-widgets .gallery-widget ul {
+    height: 86px;
+  }
+  .footer-widgets .twitter-widget {
+    margin-bottom: 50px;
+  }
+  .footer-contact form input[type="submit"] {
+    margin-bottom: 130px;
+  }
+  .footer-contact form .alert {
+    top: 60px !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .copyright {
+    text-align: center;
+  }
+  .copyright .to-the-top {
+    float: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-widgets .gallery-widget ul {
+    height: 174px;
+  }
+  .footer-contact .contact-info address {
+    padding-top: 160px;
+    padding-left: 50px;
+  }
+  .footer-contact .contact-info address ul {
+    display: block;
+    width: 100%;
+  }
+  .footer-contact .contact-form {
+    padding-left: 50px;
+  }
+}
+
+
+/* ---- Contact ---- */
+@media (max-width: 1260px) {
+  .contact-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact-1 .contact-form input[type="submit"] {
+    float: none !important;
+  }
+}
+
+
+@media (max-width: 770px) {
+  .contact-1 .contact-wrapper .contact-info-wrapper {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .contact-1 form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .map-boxed {
+    height: 670px;
+  }
+}
+
+
+/* ---- Hero ---- */
+@media (max-width: 992px) {
+  .main-demo-hero  {
+    background-attachment: initial;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-lead {
+    font-size: 2em;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-topheading {
+    font-size: .9em;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-sub-topheading {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-subheading {
+    font-size: .9em;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 770px) {
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-lead {
+    font-size: 1.5em;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-sub-topheading {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-lead br {
+    display: none;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-subheading {
+    margin-top: 10px;
+  }
+  
+  
+}
+
+@media (max-width: 600px) {
+  .main-demo-hero .hero-content-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-lead br {
+    display: none;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-subheading {
+    margin-top: 15px;
+  }
+  .main-demo-hero .hero-content-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-lead {
+    font-size: 1.8em;
+  }
+  .main-demo-hero .hero-content-wrapper .hero-content .hero-sub-topheading {
+    font-size: 1.1em;
+  }
+  
+}
